@@ -1,0 +1,69 @@
+.item-swipe-wrapper {
+  overflow: hidden;
+}
+.item-swipe-wrapper .item-swipe-option {
+  display:none;
+  position: absolute;
+  top: 21px;
+  font-style: italic;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.item-swipe-wrapper .item-swipe-option i {
+  font-size: 42px;
+  margin: 0 7px;
+}
+.item-swipe-wrapper .item-swipe-option span {
+  position: relative;
+  top: -10px
+}
+.item-swipe-wrapper .item-swipe-option.option-trash {
+  left: 28px;
+}
+.item-swipe-wrapper .item-swipe-option.option-archive {
+  right: 28px;
+}
+.item-swipe-undo {
+  text-transform: uppercase;
+  background-color: #EFEFEF;
+  border-radius: 14px;
+  color: #9E9E9E;
+}
+.item-avatar .item-content {
+  padding: 14px 84px;
+  min-height: 82px;
+}
+.item-avatar .item-content.left {
+  padding-left: 72px;
+}
+.item-avatar .item-content.right {
+  text-align: right;
+  padding-right: 72px;
+}
+.item-avatar .item-content.right  img {
+  left: auto;
+  right: 21px;
+}
+ion-item i {
+  font-size: 21px;
+}
+.has-padding {
+  padding: 14px;
+}
+/* Animate list updating after deleting an alert*/
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter,
+.animate-repeat.ng-leave {
+  -webkit-transition:all .7s ease;
+  -moz-transition:all .7s ease;
+  -o-transition:all .7s ease;
+  transition:all .7s ease;
+}
+
+.animate-repeat.ng-leave.ng-leave-active,
+.animate-repeat.ng-move {
+  opacity:0;
+  min-height:0;
+  max-height:0;
+}

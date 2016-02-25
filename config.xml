@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.example.me" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Ionic Swipe</name>
+  <description>
+    </description>
+  <author></author>
+  <content src="index.html"/>
+  <platform name="android">
+    <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
+    <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
+    <icon src="resources/android/icon/drawable-hdpi-icon.png" density="hdpi"/>
+    <icon src="resources/android/icon/drawable-xhdpi-icon.png" density="xhdpi"/>
+    <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi"/>
+    <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
+  </platform>
+  <platform name="ios">
+    <icon src="icons/ios/icon/Icon.png" width="60" height="60"/>
+    <icon src="icons/ios/icon/Icon@2x.png" width="120" height="120"/>
+  </platform>
+  <access origin="*"/>
+  <preference name="phonegap-version" value="3.5.0"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="android-targetSdkVersion" value="19"/>
+  <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
+</widget>

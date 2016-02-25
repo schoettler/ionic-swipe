@@ -1,0 +1,21 @@
+<ion-view>
+  <ion-content has-bouncing="true" overflow-scroll="false">
+    <ion-list>
+      <item-swipe class="animate-repeat item item-avatar item-complex"
+                  ng-repeat="item in vm.items"
+                  on-respond="vm.respondItem(item)"
+                  on-remove="vm.removeItem($index)">
+
+        <div class="item-content"
+           ng-class="">
+
+          <img ng-src="{{ item.img }}">
+          <h3 class="text-title">
+              {{ ::item.title }}
+          </h3>
+          <p class="text-detail"> {{ ::item.detail }}</p>
+        </div>
+      </item-swipe>
+    </ion-list>
+  </ion-content>
+</ion-view>
