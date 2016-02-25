@@ -15,8 +15,8 @@ Click **[here](http://codepen.io/schoettler/pen/qbzGvG)** for the live **Codepen
 
 To run on **Android**:
 ```shell
-ionic resources --icon
 cordova platform add android
+ionic resources --icon
 cordova run android
 ```
 # Requirements
